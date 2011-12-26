@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<script src="script.js"></script>
+</head>
+<body onLoad="body_init();">
+<center><h2><img src="title.png" width="543" height="52" alt="Claculadora de generales by IK militar tools"></h2>
+</center><br>
+<form>
+<table style="float:left;">
+<tr><td>Honderos: </td><td><input type="text" id="honderos" value="0" size="4"></td><td>Espadachines: </td><td><input type="text" id="espadachines" value="0" size="4"></td></tr>
+<tr><td>Gigantes: </td><td><input type="text" id="gigantes" value="0" size="4"></td><td>Arietes: </td><td><input type="text" id="arietes" value="0" size="4"></td></tr>
+<tr><td>Hoplitas: </td><td><input type="text" id="hoplitas" value="0" size="4"></td><td>Catapultas: </td><td><input type="text" id="catapultas" value="0" size="4"></td></tr>
+<tr><td>Arqueros: </td><td><input type="text" id="arqueros" value="0" size="4"></td><td>Morteros: </td><td><input type="text" id="morteros" value="0" size="4"></td></tr>
+<tr><td>Fusileros: </td><td><input type="text" id="fusileros" value="0" size="4"></td><td>Cocineros: </td><td><input type="text" id="cocineros" value="0" size="4"></td></tr>
+<tr><td>Lanceros: </td><td><input type="text" id="lanceros" value="0" size="4"></td><td>M&eacute;dicos: </td><td><input type="text" id="medicos" value="0" size="4"></td></tr>
+<tr><td>Bombarderos: </td><td><input type="text" id="bombarderos" value="0" size="4"></td><td>Giroc&oacute;pteros: </td><td><input type="text" id="girocopteros" value="0" size="4"></td></tr></table><div style="float:right;">Investigaciones<br>militares:<br><select id="invter"><option value="0" selected="selected">Ninguna</option>
+          <option value="0.02">Cartograf&iacute;a</option>
+          <option value="0.06">C&oacute;digo de honor</option>
+          <option value="0.14">Log&iacute;stica</option>
+          <option value="0.16">Futuro del militar 1</option>
+          <option value="0.18">Futuro del militar 2</option>
+          <option value="0.20">Futuro del militar 3</option>
+          <option value="0.22">Futuro del militar 4</option>
+          <option value="0.24">Futuro del militar 5</option>
+          <option value="0.26">Futuro del militar 6</option>
+          <option value="0.28">Futuro del militar 7</option>
+          <option value="0.30">Futuro del militar 8</option>
+          <option value="0.32">Futuro del militar 9</option>
+          <option value="0.34">Futuro del militar 10</option></select><br>Gobierno:<br><select name="gobierno" id="gobierno">
+          <option value="0" selected="selected">Otros</option>
+          <option value="1">Democracia</option>
+          <option value="2">Dictadura</option>
+          <option value="3">Nomocracia</option>
+          <option value="4">Oligarqu&iacute;a</option>
+        </select><br>Investigaciones<br>de navegaci&oacute;n:<br><select id="invnav">
+          <option value="0" selected="selected">Ninguna</option>
+          <option value="0.02">Mantenimiento de barcos</option>
+          <option value="0.06">Brea</option>
+          <option value="0.14">Cartas de Navegaci&oacute;n</option>
+          <option value="0.16">Futuro de la navegaci&oacute;n 1</option>
+          <option value="0.18">Futuro de la navegaci&oacute;n 2</option>
+          <option value="0.20">Futuro de la navegaci&oacute;n 3</option>
+          <option value="0.22">Futuro de la navegaci&oacute;n 4</option>
+          <option value="0.24">Futuro de la navegaci&oacute;n 5</option>
+          <option value="0.26">Futuro de la navegaci&oacute;n 6</option>
+          <option value="0.28">Futuro de la navegaci&oacute;n 7</option>
+          <option value="0.30">Futuro de la navegaci&oacute;n 8</option>
+          <option value="0.32">Futuro de la navegaci&oacute;n 9</option>
+          <option value="0.34">Futuro de la navegaci&oacute;n 10</option>
+        </select></div><br>
+<table>
+<tr><td>Barco espol&oacute;n: </td><td><input type="text" id="espolones" value="0" size="4"></td><td>Barco lanza llamas: </td><td><input type="text" id="lanzallamas" value="0" size="4"></td></tr>
+<tr><td>Barco catapulta: </td><td><input type="text" id="catapulta" value="0" size="4"></td><td>Barco mortero: </td><td><input type="text" id="mortero" value="0" size="4"></td></tr>
+<tr><td>Barco espol&oacute;n a vapor: </td><td><input type="text" id="espolonvapor" value="0" size="4"></td><td>Submarino: </td><td><input type="text" id="submarino" value="0" size="4"></td></tr>
+<tr><td>Barco lanzamisiles: </td><td><input type="text" id="lanzamisiles" value="0" size="4"></td><td>Lancha de palas: </td><td><input type="text" id="palas" value="0" size="4"></td></tr>
+<tr><td>Portaglobos: </td><td><input type="text" id="portaglobos" value="0" size="4"></td><td>Barco de mantenimiento: </td><td><input type="text" id="mantenimiento" value="0" size="4"></td></tr>
+<tr><td>Barco ballesta: </td><td><input type="text" id="ballestas" value="0" size="4"></td></tr></table>
+<br><input type="button" onClick="calcular()" value="Calcular generales"> <input type="reset" value="Limpiar todo"> <div style="float:right;"><img alt="Creative Commons License" style="border-width:0;" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /> <h5><a href="javascript:cambiar_color();">Cambiar Interfaz</a></h5></div>
+</form>
+<br><div style="float:left;"><b><u>Generales:</u></b> <div id="generales" style="border-style:dashed; border-color:grey; width:200px; margin-left:2px;">0</div></div><div style="float:right;"><b><u>Manutenci&oacute;n:</u></b> <div id="manutencion" style="border-style:dashed; border-color:grey; width:200px; margin-left:2px;">0</div></div>
+<br /><table align="center"><tr><td><img src="./img/burgues.gif" alt="burgueses" /></td><td><div id="burgueses">0</div></td><td><img src="./img/madera.gif" alt="madera" /></td><td><div id="madera">0</div></td><td><img src="./img/azufre.gif" alt="azufre" /></td><td><div id="azufre">0</div></td><td><img src="./img/vino.gif" alt="vino" /></td><td><div id="vino">0</div></td><td><img src="./img/cristal.gif" alt="cristal" /></td><td><div id="cristal">0</div></td></tr></table>
+</body>
+</html>
