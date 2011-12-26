@@ -89,7 +89,6 @@ function lang_init() {
   intl("medic");
   intl("cook");
   intl("spearman");
-  intl("phalanx");
   
 }
 var style;
