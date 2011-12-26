@@ -90,7 +90,6 @@ function lang_init() {
   intl("cook");
   intl("spearman");
   intl("phalanx");
-  
 }
 var style;
 function body_init() {
