@@ -1,0 +1,95 @@
+{
+  "slinger": {
+	"message": "Sliger"
+  },
+  "swordsman": {
+	"message": "Swordsman"
+  },
+  "phalanx": {
+	"message": "Hoplite"
+  },
+  "archer": {
+	"message": "Archer"
+  },
+  "marksman": {
+	"message": "Sulphur Carabineers"
+  },
+  "gyrocopter": {
+	"message": "Gyrocopter"
+  },
+  "steam_giant": {
+	"message": "Steam Giant"
+  },
+  "bombardier": {
+	"message": "Balloon-Bombardier"
+  },
+  "ram": {
+	"message": "Battering Ram"
+  },
+  "catapult": {
+	"message": "Catapult"
+  },
+  "mortar": {
+	"message": "Mortar"
+  },
+  "medic": {
+	"message": "Doctor"
+  },
+  "cook": {
+	"message": "Cook"
+  },
+  "spearman": {
+	"message": "Spearmen"
+  },
+  "flamethrower_ship": {
+	"message": "Fire Ship"
+  },
+  "ram_ship": {
+	"message": "Ram Ship"
+  },
+  "steamboat_ship": {
+	"message": "Steam Ram"
+  },
+  "catapult_ship": {
+	"message": "Catapult Ship"
+  },
+  "ballista_ship": {
+	"message": "Ballista ship"
+  },
+  "mortar_ship": {
+	"message": "Mortar Ship"
+  },
+  "rocketship": {
+	"message": "Rocket Ship"
+  },
+  "submarine_ship": {
+	"message": "Diving boat"
+  },
+  "paddlespeedship": {
+	"message": "Paddle Speedboat"
+  },
+  "tender_ship": {
+	"message": "Tender"
+  },
+  "wood": {
+	"message": "Madera"
+  },
+  "marble": {
+	"message": "Mármol"
+  },
+  "sulfur": {
+	"message": "Azufre"
+  },
+  "crystal": {
+	"message": "Cristal"
+  },
+  "wine": {
+	"message": "Vino"
+  },
+  "upkeep": {
+	"message": "Upkeep"
+  },
+  "generals": {
+	"message": "Generals"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slinger": {
+	"message": "Honderos"
+  },
+  "swordsman": {
+	"message": "Espadachines"
+  },
+  "phalanx": {
+	"message": "Hoplitas"
+  },
+  "archer": {
+	"message": "Arqueros"
+  },
+  "marksman": {
+	"message": "Fusileros"
+  },
+  "gyrocopter": {
+	"message": "Girocópteros"
+  },
+  "steam_giant": {
+	"message": "Gigantes a Vapor"
+  },
+  "bombardier": {
+	"message": "Globos Bombarderos"
+  },
+  "ram": {
+	"message": "Arietes"
+  },
+  "catapult": {
+	"message": "Catapultas"
+  },
+  "mortar": {
+	"message": "Morteros"
+  },
+  "medic": {
+	"message": "Médicos"
+  },
+  "cook": {
+	"message": "Cocineros"
+  },
+  "spearman": {
+	"message": "Lanceros"
+  },
+  "": {
+	"message": ""
+  },
+  "": {
+	"message": ""
+  },
+  "": {
+	"message": ""
+  },
+  "": {
+	"message": ""
+  },
+  "": {
+	"message": ""
+  },
+  "": {
+	"message": ""
+  },
+

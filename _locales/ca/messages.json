@@ -1,0 +1,95 @@
+{
+  "slinger": {
+	"message": "Foners"
+  },
+  "swordsman": {
+	"message": "Espadatxins"
+  },
+  "phalanx": {
+	"message": "Hoplites"
+  },
+  "archer": {
+	"message": "Arquers"
+  },
+  "marksman": {
+	"message": "Fusellers"
+  },
+  "gyrocopter": {
+	"message": "Gircòpters"
+  },
+  "steam_giant": {
+	"message": "Gegants a Vapor"
+  },
+  "bombardier": {
+	"message": "Globus Bombarders"
+  },
+  "ram": {
+	"message": "Ariets"
+  },
+  "catapult": {
+	"message": "Catapultes"
+  },
+  "mortar": {
+	"message": "Morters"
+  },
+  "medic": {
+	"message": "Metges"
+  },
+  "cook": {
+	"message": "Cuiners"
+  },
+  "spearman": {
+	"message": "Llancers"
+  },
+  "flamethrower_ship": {
+	"message": "Vaixell-llançaflames"
+  },
+  "ram_ship": {
+	"message": "Vaixell-esperó"
+  },
+  "steamboat_ship": {
+	"message": "Vaixer-esperó de vapor"
+  },
+  "catapult_ship": {
+	"message": "Vaixell-catapulta"
+  },
+  "ballista_ship": {
+	"message": "Vaixell-ballesta"
+  },
+  "mortar_ship": {
+	"message": "Vaixell-morter"
+  },
+  "rocketship": {
+	"message": "Vaixell llançamíssils"
+  },
+  "submarine_ship": {
+	"message": "Submarí"
+  },
+  "paddlespeedship": {
+	"message": "Llanxa de pales"
+  },
+  "tender_ship": {
+	"message": "Vaixell de manteniment"
+  },
+  "wood": {
+	"message": "Fusta"
+  },
+  "marble": {
+	"message": "Marbre"
+  },
+  "sulfur": {
+	"message": "Sofre"
+  },
+  "crystal": {
+	"message": "Cristall"
+  },
+  "wine": {
+	"message": "Vi"
+  },
+  "upkeep": {
+	"message": "Manutenció"
+  },
+  "generals": {
+	"message": "Generals"
+  }
+}
