@@ -25,7 +25,7 @@ function calcular () {
 	generales = generales + (document.getElementById("palas").value * 6.2);
 	generales = generales + (document.getElementById("portaglobos").value * 28);
 	generales = generales + (document.getElementById("mantenimiento").value * 16);
-	document.getElementById("generales").innerHTML = generales;
+	document.getElementById("generales").innerHTML = Math.round(generales);
 	var mantter = (document.getElementById("honderos").value * 2) + (document.getElementById("hoplitas").value * 3) + (document.getElementById("gigantes").value * 12) + (document.getElementById("arqueros").value * 4) + (document.getElementById("fusileros").value * 3) + (document.getElementById("espadachines").value * 4) + (document.getElementById("arietes").value * 15) + (document.getElementById("morteros").value * 30) + (document.getElementById("medicos").value * 20) + (document.getElementById("cocineros").value * 10) + (document.getElementById("lanceros").value * 1) + (document.getElementById("bombarderos").value * 45) + (document.getElementById("girocopteros").value * 15) + (document.getElementById("catapultas").value * 25);
 	var invter = document.getElementById("invter").value;
 	var mantt = mantter - (mantter * invter);
@@ -47,7 +47,7 @@ function calcular () {
 		}
 	}
 	var mant = mantn + mantt;
-	document.getElementById("manutencion").innerHTML = mant;
+	document.getElementById("manutencion").innerHTML = Math.round(mant);
 	var madera = (document.getElementById("honderos").value * 20) + (document.getElementById("hoplitas").value * 40) + (document.getElementById("gigantes").value * 130) + (document.getElementById("arqueros").value * 30) + (document.getElementById("fusileros").value * 50) + (document.getElementById("espadachines").value * 30) + (document.getElementById("arietes").value * 220) + (document.getElementById("morteros").value * 300) + (document.getElementById("medicos").value * 50) + (document.getElementById("cocineros").value * 50) + (document.getElementById("lanceros").value * 30) + (document.getElementById("bombarderos").value * 40) + (document.getElementById("girocopteros").value * 25) + (document.getElementById("catapultas").value * 260) + (document.getElementById("espolones").value * 220) + (document.getElementById("lanzallamas").value * 80) + (document.getElementById("catapulta").value * 180) + (document.getElementById("mortero").value * 220) + (document.getElementById("espolonvapor").value * 300) + (document.getElementById("submarino").value * 160) + (document.getElementById("ballestas").value * 180) + (document.getElementById("lanzamisiles").value * 200) + (document.getElementById("palas").value * 40) + (document.getElementById("portaglobos").value * 700) + (document.getElementById("mantenimiento").value * 300);
 	document.getElementById("madera").innerHTML = madera;
 	var azufre = (document.getElementById("hoplitas").value * 30) + (document.getElementById("gigantes").value * 180) + (document.getElementById("arqueros").value * 25) + (document.getElementById("fusileros").value * 150) + (document.getElementById("espadachines").value * 30) + (document.getElementById("morteros").value * 1250) + (document.getElementById("bombarderos").value * 250) + (document.getElementById("girocopteros").value * 100) + (document.getElementById("catapultas").value * 300) + (document.getElementById("espolones").value * 50) + (document.getElementById("lanzallamas").value * 230) + (document.getElementById("catapulta").value * 140) + (document.getElementById("mortero").value * 900) + (document.getElementById("espolonvapor").value * 1500) + (document.getElementById("ballestas").value * 160) + (document.getElementById("lanzamisiles").value * 1200) + (document.getElementById("palas").value * 280) + (document.getElementById("portaglobos").value * 700) + (document.getElementById("mantenimiento").value * 250);
@@ -127,15 +127,5 @@ function lang_init() {
 }
 var style;
 function body_init() {
-	if (!localStorage.getItem('ikcalc_style')) {
-		localStorage.setItem('ikcalc_style', 1);
-		style = 1;
-	} else {
-		style = localStorage.getItem('ikcalc_style');
-		if (style == 2) {
-			document.body.style.backgroundColor = "Gainsboro";
-			document.body.style.color = "Black";
-		}
-	}
 lang_init();
 }
