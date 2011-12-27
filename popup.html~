@@ -27,12 +27,12 @@
           <option value="0.28" id="militaristic_future7"></option>
           <option value="0.30" id="militaristic_future8"></option>
           <option value="0.32" id="militaristic_future9"></option>
-          <option value="0.34" id="militaristic_future10"></option></select></td></tr><tr><td id="government"></td></tr><tr><td><select name="gobierno" id="gobierno">
-          <option value="0" selected="selected" id="other"></option>
-          <option value="1" id="democracy"></option>
-          <option value="2" id="dictatorship"></option>
-          <option value="3" id="nomocracy"></option>
-          <option value="4" id="oligarchy"></option>
+          <option value="0.34" id="militaristic_future10"></option></select></td></tr><tr><td>Gobierno:</tr></td><tr><td><select name="gobierno" id="gobierno">
+          <option value="0" selected="selected">Otros</option>
+          <option value="1">Democracia</option>
+          <option value="2">Dictadura</option>
+          <option value="3">Nomocracia</option>
+          <option value="4">Oligarqu&iacute;a</option>
         </select></td></tr><tr><td>Investigaciones de navegaci&oacute;n:</td></tr><tr><td><select id="invnav">
           <option value="0" selected="selected">Ninguna</option>
           <option value="0.02">Mantenimiento de barcos</option>

@@ -118,12 +118,6 @@ function lang_init() {
  }
   intl("generals");
   intl("upkeep");
-  intl("government");
-  _intl("other");
-  _intl("democracy");
-  _intl("dictatorship");
-  _intl("nomocracy");
-  _intl("oligarchy");
 }
 var style;
 function body_init() {

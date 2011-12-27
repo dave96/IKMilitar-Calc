@@ -91,5 +91,53 @@
   },
   "generals": {
 	"message": "Generales"
+  },
+  "calculate": {
+	"message": "Calcular generales"
+  },
+  "clean": {
+	"message": "Limpiar todo"
+  },
+  "military": {
+	"message": "Investigaciones militares"
+  },
+  "none": {
+	"message": "Ninguna"
+  },
+  "maps": {
+	"message": "Cartografía"
+  },
+  "honour": {
+	"message": "Código de honor"
+  },
+  "logistics": {
+	"message": "Logística"
+  },
+  "militaristic_future": {
+	"message": "Futuro del militar"
+  },
+  "government": {
+	"message": "Gobierno"
+  },
+  "other": {
+	"message": "Otros"
+  },
+  "democracy": {
+	"message": "Democracia"
+  },
+  "dictatorship": {
+	"message": "Dictadura"
+  },
+  "nomocracy": {
+	"message": "Nomocracia"
+  },
+  "oligarchy": {
+	"message": "Oligarquía"
+  },
+  "none": {
+	"message": "Ninguna"
+  },
+  "balloon_ship": {
+	"message": "Portaglobos"
   }
 }
