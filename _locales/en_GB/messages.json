@@ -91,5 +91,68 @@
   },
   "generals": {
 	"message": "Generals"
+  },
+  "calculate": {
+	"message": "Calculate generals"
+  },
+  "clean": {
+	"message": "Clean all"
+  },
+  "military": {
+	"message": "Military Research"
+  },
+  "none": {
+	"message": "None"
+  },
+  "maps": {
+	"message": "Maps"
+  },
+  "honour": {
+	"message": "Code of Honour"
+  },
+  "logistics": {
+	"message": "Logistics"
+  },
+  "militaristic_future": {
+	"message": "Militaristic Future"
+  },
+  "government": {
+	"message": "Government"
+  },
+  "other": {
+	"message": "Other"
+  },
+  "democracy": {
+	"message": "Democracy"
+  },
+  "dictatorship": {
+	"message": "Dictatorship"
+  },
+  "nomocracy": {
+	"message": "Nomocracy"
+  },
+  "oligarchy": {
+	"message": "Oligarchy"
+  },
+  "seafaring": {
+	"message": "Seafaring Research"
+  },
+  "ship_maintenance": {
+	"message": "Ship Maintenance"
+  },
+  "none_": {
+	"message": "None"
+  },
+  "pitch": {
+	"message": "Pitch"
+  },
+  "sea_maps": {
+	"message": "Sea Maps"
+  },
+  "seafaring_future": {
+	"message": "Seafaring Future"
+  },
+  "balloon_ship": {
+	"message": "Balloon Carrier"
   }
 }

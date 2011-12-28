@@ -134,8 +134,23 @@
   "oligarchy": {
 	"message": "Oligarquía"
   },
-  "none": {
+  "seafaring": {
+	"message": "Investigaciones de navegación"
+  },
+  "ship_maintenance": {
+	"message": "Mantenimiento de barcos"
+  },
+  "none_": {
 	"message": "Ninguna"
+  },
+  "pitch": {
+	"message": "Brea"
+  },
+  "sea_maps": {
+	"message": "Cartas de navegación"
+  },
+  "seafaring_future": {
+	"message": "Futuro de navegación"
   },
   "balloon_ship": {
 	"message": "Portaglobos"

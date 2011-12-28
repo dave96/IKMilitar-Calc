@@ -124,6 +124,16 @@ function lang_init() {
   _intl("dictatorship");
   _intl("nomocracy");
   _intl("oligarchy");
+  intl("seafaring");
+  _intl("none_");
+  _intl("pitch");
+  _intl("ship_maintenance");
+  _intl("sea_maps");
+ i=1;
+ for (i=1;i<=10;i++) {
+  element = "seafaring_future"+i;
+  document.getElementById(element).innerHTML = chrome.i18n.getMessage("seafaring_future")+" "+i;
+ }
 }
 var style;
 function body_init() {
