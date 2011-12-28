@@ -138,5 +138,7 @@ function lang_init() {
 var style;
 function body_init() {
 lang_init();
-guardar();
+}
+function open() {
+chrome.tabs.create( { url: "calculadora.html"} );
 }
