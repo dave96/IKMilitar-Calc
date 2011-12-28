@@ -11,6 +11,5 @@
     "popup": "popup.html"
   },
    "update_url": "http://ika.dtecno.com/update.xml",
-   "default_locale": "es",
-   "options_page": "options.html"
+   "default_locale": "en"
 }
