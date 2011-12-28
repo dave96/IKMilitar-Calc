@@ -138,4 +138,5 @@ function lang_init() {
 var style;
 function body_init() {
 lang_init();
+guardar();
 }
