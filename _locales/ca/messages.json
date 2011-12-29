@@ -152,6 +152,9 @@
   "seafaring_future": {
 	"message": "Futur de la navegació"
   },
+  "download": {
+	"message": "Descarregar resum"
+  },
   "balloon_ship": {
 	"message": "Portaglobus"
   }

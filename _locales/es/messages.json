@@ -152,6 +152,9 @@
   "seafaring_future": {
 	"message": "Futuro de navegación"
   },
+  "download": {
+	"message": "Descargar reporte"
+  },
   "balloon_ship": {
 	"message": "Portaglobos"
   }

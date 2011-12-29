@@ -152,6 +152,9 @@
   "seafaring_future": {
 	"message": "Seafaring Future"
   },
+  "download": {
+	"message": "Download report"
+  },
   "balloon_ship": {
 	"message": "Balloon Carrier"
   }

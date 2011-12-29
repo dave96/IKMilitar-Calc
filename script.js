@@ -14,15 +14,15 @@ function calcular () {
 	generales = generales + (document.getElementById("medicos").value * 10);
 	generales = generales + (document.getElementById("bombarderos").value * 5.8);
 	generales = generales + (document.getElementById("girocopteros").value * 2.5);
-	generales = generales + (document.getElementById("espolones").value * 5.4);
+	generales = generales + (document.getElementById("espolones").value * 5);
 	generales = generales + (document.getElementById("lanzallamas").value * 6.2);
 	generales = generales + (document.getElementById("catapulta").value * 6.4);
 	generales = generales + (document.getElementById("mortero").value * 22.4);
-	generales = generales + (document.getElementById("espolonvapor").value * 36);
-	generales = generales + (document.getElementById("submarino").value * 18.2);
+	generales = generales + (document.getElementById("espolonvapor").value * 24);
+	generales = generales + (document.getElementById("submarino").value * 20.2);
 	generales = generales + (document.getElementById("ballestas").value * 6.8);
 	generales = generales + (document.getElementById("lanzamisiles").value * 28);
-	generales = generales + (document.getElementById("palas").value * 6.2);
+	generales = generales + (document.getElementById("palas").value * 6.4);
 	generales = generales + (document.getElementById("portaglobos").value * 28);
 	generales = generales + (document.getElementById("mantenimiento").value * 16);
 	document.getElementById("generales").innerHTML = Math.round(generales);
@@ -48,9 +48,9 @@ function calcular () {
 	}
 	var mant = mantn + mantt;
 	document.getElementById("manutencion").innerHTML = Math.round(mant);
-	var madera = (document.getElementById("honderos").value * 20) + (document.getElementById("hoplitas").value * 40) + (document.getElementById("gigantes").value * 130) + (document.getElementById("arqueros").value * 30) + (document.getElementById("fusileros").value * 50) + (document.getElementById("espadachines").value * 30) + (document.getElementById("arietes").value * 220) + (document.getElementById("morteros").value * 300) + (document.getElementById("medicos").value * 50) + (document.getElementById("cocineros").value * 50) + (document.getElementById("lanceros").value * 30) + (document.getElementById("bombarderos").value * 40) + (document.getElementById("girocopteros").value * 25) + (document.getElementById("catapultas").value * 260) + (document.getElementById("espolones").value * 220) + (document.getElementById("lanzallamas").value * 80) + (document.getElementById("catapulta").value * 180) + (document.getElementById("mortero").value * 220) + (document.getElementById("espolonvapor").value * 300) + (document.getElementById("submarino").value * 160) + (document.getElementById("ballestas").value * 180) + (document.getElementById("lanzamisiles").value * 200) + (document.getElementById("palas").value * 40) + (document.getElementById("portaglobos").value * 700) + (document.getElementById("mantenimiento").value * 300);
+	var madera = (document.getElementById("honderos").value * 20) + (document.getElementById("hoplitas").value * 40) + (document.getElementById("gigantes").value * 130) + (document.getElementById("arqueros").value * 30) + (document.getElementById("fusileros").value * 50) + (document.getElementById("espadachines").value * 30) + (document.getElementById("arietes").value * 220) + (document.getElementById("morteros").value * 300) + (document.getElementById("medicos").value * 50) + (document.getElementById("cocineros").value * 50) + (document.getElementById("lanceros").value * 30) + (document.getElementById("bombarderos").value * 40) + (document.getElementById("girocopteros").value * 25) + (document.getElementById("catapultas").value * 260) + (document.getElementById("espolones").value * 250) + (document.getElementById("lanzallamas").value * 80) + (document.getElementById("catapulta").value * 180) + (document.getElementById("mortero").value * 220) + (document.getElementById("espolonvapor").value * 400) + (document.getElementById("submarino").value * 160) + (document.getElementById("ballestas").value * 180) + (document.getElementById("lanzamisiles").value * 200) + (document.getElementById("palas").value * 40) + (document.getElementById("portaglobos").value * 700) + (document.getElementById("mantenimiento").value * 300);
 	document.getElementById("madera").innerHTML = madera;
-	var azufre = (document.getElementById("hoplitas").value * 30) + (document.getElementById("gigantes").value * 180) + (document.getElementById("arqueros").value * 25) + (document.getElementById("fusileros").value * 150) + (document.getElementById("espadachines").value * 30) + (document.getElementById("morteros").value * 1250) + (document.getElementById("bombarderos").value * 250) + (document.getElementById("girocopteros").value * 100) + (document.getElementById("catapultas").value * 300) + (document.getElementById("espolones").value * 50) + (document.getElementById("lanzallamas").value * 230) + (document.getElementById("catapulta").value * 140) + (document.getElementById("mortero").value * 900) + (document.getElementById("espolonvapor").value * 1500) + (document.getElementById("ballestas").value * 160) + (document.getElementById("lanzamisiles").value * 1200) + (document.getElementById("palas").value * 280) + (document.getElementById("portaglobos").value * 700) + (document.getElementById("mantenimiento").value * 250);
+	var azufre = (document.getElementById("hoplitas").value * 30) + (document.getElementById("gigantes").value * 180) + (document.getElementById("arqueros").value * 25) + (document.getElementById("fusileros").value * 150) + (document.getElementById("espadachines").value * 30) + (document.getElementById("morteros").value * 1250) + (document.getElementById("bombarderos").value * 250) + (document.getElementById("girocopteros").value * 100) + (document.getElementById("catapultas").value * 300) + (document.getElementById("lanzallamas").value * 230) + (document.getElementById("catapulta").value * 140) + (document.getElementById("mortero").value * 900) + (document.getElementById("submarino").value * 100) + (document.getElementById("espolonvapor").value * 800) + (document.getElementById("ballestas").value * 160) + (document.getElementById("lanzamisiles").value * 1200) + (document.getElementById("palas").value * 280) + (document.getElementById("portaglobos").value * 700) + (document.getElementById("mantenimiento").value * 250);
 	document.getElementById("azufre").innerHTML = azufre;
 	var vino = document.getElementById("cocineros").value * 150;
 	document.getElementById("vino").innerHTML = vino;
@@ -58,19 +58,7 @@ function calcular () {
 	document.getElementById("cristal").innerHTML = cristal;
 	var burgueses = (document.getElementById("honderos").value * 1) + (document.getElementById("hoplitas").value * 1) + (document.getElementById("gigantes").value * 2) + (document.getElementById("arqueros").value * 1) + (document.getElementById("fusileros").value * 1) + (document.getElementById("espadachines").value * 1) + (document.getElementById("arietes").value * 5) + (document.getElementById("morteros").value * 5) + (document.getElementById("medicos").value * 1) + (document.getElementById("cocineros").value * 1) + (document.getElementById("lanceros").value * 1) + (document.getElementById("bombarderos").value * 5) + (document.getElementById("girocopteros").value * 3) + (document.getElementById("catapultas").value * 5) + (document.getElementById("espolones").value * 5) + (document.getElementById("lanzallamas").value * 4) + (document.getElementById("catapulta").value * 5) + (document.getElementById("mortero").value * 5) + (document.getElementById("espolonvapor").value * 2) + (document.getElementById("submarino").value * 6) + (document.getElementById("ballestas").value * 6) + (document.getElementById("lanzamisiles").value * 2) + (document.getElementById("palas").value * 1) + (document.getElementById("portaglobos").value * 8) + (document.getElementById("mantenimiento").value * 7);
 	document.getElementById("burgueses").innerHTML = burgueses;
-}
-function cambiar_color () {
-	if (style == 1) {
-		document.body.style.backgroundColor = "Gainsboro";
-		document.body.style.color = "Black";
-		style = 2;
-		localStorage.setItem('ikcalc_style', 2);
-	} else {
-		document.body.style.backgroundColor = "#000";
-		document.body.style.color = "#FFF";
-		style = 1;
-		localStorage.setItem('ikcalc_style', 1);
-	}
+generar_reporte();
 }
 function intl(field) {
   document.getElementById(field).innerHTML = chrome.i18n.getMessage(field) + ": ";
@@ -129,16 +117,19 @@ function lang_init() {
   _intl("pitch");
   _intl("ship_maintenance");
   _intl("sea_maps");
+  _intl("download");
  i=1;
  for (i=1;i<=10;i++) {
   element = "seafaring_future"+i;
   document.getElementById(element).innerHTML = chrome.i18n.getMessage("seafaring_future")+" "+i;
  }
 }
-var style;
 function body_init() {
 lang_init();
 }
-function open() {
-chrome.tabs.create( { url: "calculadora.html"} );
+function generar_reporte() {
+   var text = 'Resumen del cálculo de tropas:\nGenerales totales: '+document.getElementById("generales").innerHTML+'\nManutención total: '+document.getElementById("manutencion").innerHTML+'\nMadera: '+document.getElementById("madera").innerHTML+'\nAzufre: '+document.getElementById("azufre").innerHTML+'\nVino: '+document.getElementById("vino").innerHTML+'\nCristal: '+document.getElementById("cristal").innerHTML+'\n\nReporte generado por IKMilitar Calc. (c) Copyright IKMilitar Tools 2011. (c) Copyright dave96 2011';
+   text = escape(text);
+   document.getElementById("download").href = 'http://ikmilitartools.com/ikmilitarcalc/reporte.php?cont='+text;
+   document.getElementById("download").style.visibility = 'visible';
 }
